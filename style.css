@@ -85,7 +85,7 @@ a:hover{
 	width: 30%;
 	margin: auto;
 	text-align: center;
-	background-image: url(background1.webp);
+	background-image: url(Picture1.png);
 
 }
 
@@ -99,11 +99,11 @@ a:hover{
 }
 
 .content h1 span{
-	color:  #EA047E;
+	color:  #CD104D;
 }
 .arrival{
 	display: flex;
-	color:  #EA047E;
+	color:  #CD104D;
 	font-size: 100%;
 	font-family: 'Pacifico', cursive;
 }
