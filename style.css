@@ -104,12 +104,12 @@ a:hover{
 .arrival{
 	display: flex;
 	color:  #EA047E;
-	font-size: 80%;
+	font-size: 100%;
 	font-family: 'Pacifico', cursive;
 }
 
 .arrival div{
-	flex-basis: 100%;
+	flex-basis: 150%;
 }
 
 .arrival div p{
