@@ -1,0 +1,47 @@
+{
+	margin:  0;
+	padding: 0;
+	font-family: 'poppins', sans-serif;
+	box-sizing: border-box;
+}
+.container{
+	width:  100vw;
+	height: 100vh;
+	background-image: url(background.webp) ;
+	background-position: center;
+	background-size: cover;
+	padding: 0 8%;
+	position: relative;
+
+
+}
+.content{
+	top: 50%;
+	position: absolute;
+	transform: translate(100%);
+	color:  white;
+}
+
+
+.content h1{
+	font-size: 64px;
+	font-weight: 600;
+}
+
+.content h1 span{
+	color:  #DD5353;
+}
+.arrival{
+	display: flex;
+	color:  blue;
+	font-size: 100%;
+}
+
+.arrival div{
+	flex-basis: 100px;
+}
+
+.arrival div p{
+	font-size: 60px;
+	margin-bottom: -14px;
+}
