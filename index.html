@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Coming Soon</title>
 	<link rel="stylesheet" href="style.css">
 	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Merriweather:ital@0;1&family=Montserrat&family=Pacifico&family=Playfair+Display:ital@0;1&family=Sacramento&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
-	
+	<div class="top-container">
+		<img class="ProfilePhoto" src= "Profile Photo.jpg" alt="g.j.a.">
+		<h1>Nabs, Ekow M. here!</h1>
+		<h5 class='GSR'> <span id='GSR'>currently planning to</span> <br> Come Home To You.</h5>
+		<div class="profile">
+			<p>I am a PhD student in the Department of Bioengineering at the University of Pittsburgh, working under the supervision of <a href="https://www.rnel.pitt.edu/people/lee-fisher-phd">Lee Fisher</a>.
+				<br>Yeah I copied that first part from my personal website cos I didn't know what to put there. 
+				<br>For real though, I look forward to enjoying movies with you, listening to music (got to work on our playlist), travelling and sight-seeing with you, and taking pictures with and of you.
+				<br>Oh, and all others. 😊
+			</p>
+		</div>
+		<hr>
+	</div>
+
 	<div class="container">
 		<div class="content">
 			<h1>Ti<span>me Remain</span>ing</h1>
@@ -31,32 +50,38 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
+
+
+
+	<div class="bottom-container">
+		<p>© 2022, GJA</p>
+	</div>
+
 	<script>
 
-		var countDownDate = new Date(" Dec 08, 2022 20:00:00").getTime();
-		var x= setInterval(function(){
-			var now = new Date().getTime();
-			var distance = countDownDate - now;
+    var countDownDate = new Date(" Dec 08, 2022 20:00:00").getTime();
+    var x= setInterval(function(){
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
 
-			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-			document.getElementById("days").innerHTML = days;
-			document.getElementById("hours").innerHTML = hours;
-			document.getElementById("mins").innerHTML = minutes;
-			document.getElementById("secs").innerHTML = seconds;
-
-
-
-		},1000);
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("mins").innerHTML = minutes;
+      document.getElementById("secs").innerHTML = seconds;
 
 
-	</script>
-	
+
+    },1000);
+
+
+  </script>
+
 </body>
 </html>
-

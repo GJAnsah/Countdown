@@ -1,44 +1,134 @@
-{
-	margin:  0;
-	padding: 0;
-	font-family: 'poppins', sans-serif;
-	box-sizing: border-box;
+
+body{
+	background-color: #EEF1FF;
+	font-family: 'Merriweather Sans',sans-serif;
+	margin: 0px;
+	text-align: center;
 }
+
+.top-container{
+	padding-top: 6%;
+	width: 40%;
+	margin:  auto;
+	padding-bottom: 1.5%;
+}
+.ProfilePhoto{
+	border-radius: 50%;
+	float: left;
+}
+.profile{
+	padding-top: 1%;
+	margin: auto;
+	line-height: 2;
+	clear: left;
+	text-align: left;
+}
+.contact{
+	color: #256D85;
+	text-align: center;
+}
+
+
+
+.Teaching{
+	text-align: left;
+}
+
+.bottom-container{
+	margin-top:4em;
+	font-size: 0.75rem;
+}
+
+hr{
+	border-style: dotted none none none;
+	border-color:  #AAC4FF;
+	border-width: 4px;
+	height: 0px;
+	width: 2%;
+	
+}
+
+h1{
+	letter-spacing: 6.25%;
+	margin: 0;
+	font-family: 'Sacramento', cursive;
+	font-size: 437.5%;
+	font-weight: 100;
+	color: #66BFBF;
+	margin-bottom: 0;
+}
+
+
+h3{
+	color: #0096FF;
+	font-weight: 100;
+
+}
+
+h4{
+	color: #0096FF;
+	font-weight: 100;
+	
+}
+
+a{
+	color: #256D85;
+	text-decoration: none;
+}
+
+a:hover{
+	color: blue;
+}
+
+.GSR{
+	font-weight: 100;
+	
+	font-size: 100%;
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
+
+
+
+#GSR{
+	font-family: 'Pacifico', cursive;
+
+}
+.subheadings{
+	font-family: 'Pacifico', cursive;
+
+}
+
+
 .container{
-	width:  100vw;
-	height: 100vh;
-	background-image: url(background.webp) ;
-	background-position: center;
-	background-size: cover;
-	padding: 0 8%;
-	position: relative;
-
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	background-image: url(background.webp);
 
 }
-.content{
-	top: 50%;
-	position: absolute;
-	transform: translate(100%);
-	color:  white;
-}
+
 
 
 .content h1{
-	font-size: 64px;
+	font-size: 3rem;
 	font-weight: 600;
+	
+	color:  white;
 }
 
 .content h1 span{
-	color:  #DD5353;
+	color:  #EA047E;
 }
 .arrival{
 	display: flex;
-	color:  blue;
-	font-size: 100%;
+	color:  #EA047E;
+	font-size: 80%;
+	font-family: 'Pacifico', cursive;
 }
 
 .arrival div{
-	flex-basis: 100px;
+	flex-basis: 100%;
 }
 
 .arrival div p{
